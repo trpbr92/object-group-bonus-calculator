@@ -1,3 +1,5 @@
+console.log('in js');
+
 const employees = [
   {
     name: 'Atticus',
@@ -30,7 +32,6 @@ const employees = [
     reviewRating: 1
   }
 ];
-
 // YOU SHOULD NOT NEED TO CHANGE ANYTHING ABOVE THIS POINT
 
 // Take small steps! Don't write a for loop and two functions that do all of the calculations right away.
@@ -41,3 +42,12 @@ const employees = [
 // Ask questions when you don't.
 
 console.log( employees );
+
+for (let i = 0; i < employees.length; i++) {
+  console.log( employees[i]);  
+}//end for
+
+function bonusCalculator(){
+
+
+}//end BonusCalculator
