@@ -43,11 +43,15 @@ const employees = [
 
 console.log( employees );
 
-for (let i = 0; i < employees.length; i++) {
-  console.log( employees[i]);  
-}//end for
-
-function bonusCalculator(){
 
 
+function bonusCalculator(name, employeeNumber, annualSalary, reviewRating){
+  for (let i = 0; i < employees.length; i++) {
+    console.log( employees[i]);
+    if (name === name) {
+      return name;
+    }//end if  
+  }//end for
 }//end BonusCalculator
+
+console.log(bonusCalculator('Mayella', '89068', '35000', 1));
