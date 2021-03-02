@@ -48,10 +48,24 @@ console.log( employees );
 function bonusCalculator(name, employeeNumber, annualSalary, reviewRating){
   for (let i = 0; i < employees.length; i++) {
     console.log( employees[i]);
-    if (name === name) {
-      return name;
-    }//end if  
-  }//end for
+}//end for
+
+
+if (reviewRating <= 2) {
+  return 'No Bonus';
+}//end if
+if (reviewRating === 4) {
+  return
+}//end if
+if (reviewRating === 5) {
+  return
+}//end ifif (reviewRating === 3) {
+  return
+}//end if
 }//end BonusCalculator
 
-console.log(bonusCalculator('Mayella', '89068', '35000', 1));
+
+
+
+
+console.log(bonusCalculator('Mayella', '89068', '35000', 1 ));
