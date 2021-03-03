@@ -45,8 +45,10 @@ console.log( employees );
 
 function bonusCalculator(name, employeeNumber, annualSalary, reviewRating){
   console.log(name);
+ 
   let bonusPercentage = 0;
- if (reviewRating <= 2) {
+ 
+  if (reviewRating <= 2) {
   console.log('reviewRating to No Bonus');
  }//end if
 
@@ -68,4 +70,7 @@ else if (reviewRating === 5) {
 
 
 console.log(bonusCalculator('Mayella', '89068', '35000', 1 ));
+console.log(bonusCalculator('Jem', '62347', '63500', 4 ));
+console.log(bonusCalculator('Scout', '6243', '74750', 5 ));
+console.log(bonusCalculator('Robert', '26835', '66000', 1 ));
 console.log(bonusCalculator('Atticus', '2475', '47000', 3 ));
