@@ -50,6 +50,7 @@ function bonusCalculator(name, employeeNumber, annualSalary, reviewRating){
  
   if (reviewRating <= 2) {
   console.log('reviewRating to No Bonus');
+  console.log(annualSalary * 0);
 }//end if
 
  else if (reviewRating === 3) {
@@ -59,10 +60,12 @@ console.log(annualSalary * .04);
 
 else if (reviewRating === 4) {
   console.log('reviewRating to bonus 6% of income');
+ console.log(annualSalary * .06);
 }//end else if
 
 else if (reviewRating === 5) {
   console.log('reviewRating to bonus 10% of income');
+  console.log(annualSalary * .1);
   }//end else if
 
 
