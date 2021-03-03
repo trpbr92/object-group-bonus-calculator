@@ -67,7 +67,9 @@ else if (reviewRating === 5) {
   console.log('reviewRating to bonus 10% of income');
   console.log(annualSalary * .1);
   }//end else if
-
+else if (employeeNumber.length === 4) {
+  console.log('Extra 5%');
+}
 
 }//end bonus Calculator
 
