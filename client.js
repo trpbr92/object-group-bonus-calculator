@@ -48,31 +48,28 @@ function bonusCalculator(name, employeeNumber, annualSalary, reviewRating){
  
   let bonusPercentage = 0;
  
+
   if (reviewRating <= 2) {
   console.log('reviewRating to No Bonus');
-  console.log(annualSalary * 0);
+  bonusPercentage = 0 * annualSalary;
 }//end if
 
  else if (reviewRating === 3) {
   console.log('reviewRating to bonus 4% of income');
-console.log(annualSalary * .04);
+  bonusPercentage = .04 * annualSalary;
 }//end else if
 
 else if (reviewRating === 4) {
   console.log('reviewRating to bonus 6% of income');
- console.log(annualSalary * .06);
+ bonusPercentage = .06 * annualSalary;
 }//end else if
 
 else if (reviewRating === 5) {
   console.log('reviewRating to bonus 10% of income');
-  console.log(annualSalary * .1);
+  bonusPercentage = .1 * annualSalary;
   }//end else if
-else if (employeeNumber.length === 4) {
-  console.log('Extra 5%');
-}
-
+  return bonusPercentage;
 }//end bonus Calculator
-
 
 
 console.log(bonusCalculator('Mayella', '89068', '35000', 1 ));
