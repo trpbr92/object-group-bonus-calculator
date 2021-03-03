@@ -44,17 +44,26 @@ const employees = [
 console.log( employees );
 
 function bonusCalculator(name, employeeNumber, annualSalary, reviewRating){
-  for (let i = 0; i < employees.length; i++) {
-}//end for
-if (name) {
-  return name;
-}
+  console.log(name);
+  let bonusPercentage = 0;
+ if (reviewRating <= 2) {
+  console.log('reviewRating to No Bonus');
+ }//end if
+
+ else if (reviewRating === 3) {
+  console.log('reviewRating to bonus 4% of income');
+}//end else if
+
+else if (reviewRating === 4) {
+  console.log('reviewRating to bonus 6% of income');
+}//end else if
+
+else if (reviewRating === 5) {
+  console.log('reviewRating to bonus 10% of income');
+  }//end else if
 
 
 }//end bonus Calculator
-
-
-
 
 
 
